@@ -1,0 +1,8 @@
+#!/Users/raghavendrav/miniconda3/bin/python3.7
+
+name = input("What is your name? ")
+birthdate = input("what is your birthdate? ")
+age = int(input("Tell your age: "))
+
+print(f"{name} was born on {birthdate}")
+print(f"half of your age is: {age / 2}")
